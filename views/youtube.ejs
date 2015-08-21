@@ -1,0 +1,13 @@
+<div class="container">
+	<div class="col-md-12 text-center">
+		<h3><%= title %></h3>
+		<img src="<%= thumbnail %>">
+			<ul style="list-style-type: none;">
+			<% videos.forEach(function(video){ %>
+				<li>Format: <strong><%= video.type.format %></strong> || Quality: <strong><%= video.type.quality %></strong></li>
+			  	<a href="<%= video.url %>">Download</a>
+			<% }) %>
+			</ul>
+			<a class="btn btn-success" href="/">Kembali</a>
+	</div>
+</div>
