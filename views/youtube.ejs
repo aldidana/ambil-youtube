@@ -5,7 +5,7 @@
 			<ul style="list-style-type: none;">
 			<% videos.forEach(function(video){ %>
 				<li>Format: <strong><%= video.type.format %></strong> || Quality: <strong><%= video.type.quality %></strong></li>
-			  	<a href="<%= video.url %>">Download</a>
+			  	<a href="<%= video.url %>" download="ambil-youtube">Download</a>
 			<% }) %>
 			</ul>
 			<a class="btn btn-success" href="/">Kembali</a>
