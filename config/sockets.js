@@ -97,7 +97,7 @@ module.exports.sockets = {
   * works, even in Safari), then opening the connection.                     *
   *                                                                          *
   * You can also pass along a ?cookie query parameter to the upgrade url,    *
-  * which Sails will use in the absense of a proper cookie e.g. (when        *
+  * which Sails will use in the absence of a proper cookie e.g. (when        *
   * connecting from the client):                                             *
   * io.sails.connect('http://localhost:1337?cookie=smokeybear')              *
   *                                                                          *
